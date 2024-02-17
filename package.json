@@ -4,8 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "docs": "typedoc --out ../anderswestberg.github.io/docs index.ts",
-    "watch": "typedoc --watch --out ../anderswestberg.github.io/docs index.ts",
+    "docs": "typedoc --entryPointStrategy expand --out ../anderswestberg.github.io/docs ./src",
+    "watch": "typedoc --watch --entryPointStrategy expand --out ../anderswestberg.github.io/docs ./src",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
