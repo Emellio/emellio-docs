@@ -4,8 +4,6 @@ Description of Emellio components and their properties and events using Typescri
 
 Documentation is generated using Typedoc.
 
-Generate to docs folder by running `npm run docs` or `npm run watch`.
+Generate to github.io folder by running `npm run docs` or `npm run watch`.
 
-The docs folder is a separate git repo publishing to [hithub pages](https://emellio.github.io).
-
-Commit changes for both the top repo and the docs repo.
+The github.io folder is a separate git repo at ../anderswestberg.github.io publishing to [hithub pages](https://anderswestberg.github.io).
