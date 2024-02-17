@@ -4,8 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "docs": "typedoc --out ./github.io index.ts",
-    "watch": "typedoc --watch --out ./github.io index.ts",
+    "docs": "typedoc --out ./anderswestberg.github.io index.ts",
+    "watch": "typedoc --watch --out ./anderswestberg.github.io index.ts",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
