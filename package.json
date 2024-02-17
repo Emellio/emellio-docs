@@ -1,0 +1,19 @@
+{
+  "name": "emellio-docs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "docs": "typedoc --out ./github.io index.ts",
+    "watch": "typedoc --watch --out ./github.io index.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/node": "^20.11.19",
+    "typedoc": "^0.25.8",
+    "typedoc-plugin-markdown": "^3.17.1"
+  }
+}
